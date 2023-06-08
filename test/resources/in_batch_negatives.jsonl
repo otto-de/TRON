@@ -1,0 +1,5 @@
+{"session": "0", "events": [{"ts": 1396314000.124, "type": "clicks", "aid": "1"}, {"ts": 1396314193.688, "type": "clicks", "aid": "1"}]}
+{"session": "1", "events": [{"ts": 1396314000.567, "type": "clicks", "aid": "2"}, {"ts": 1396314048.736, "type": "clicks", "aid": "2"}, {"ts": 1396314156.728, "type": "clicks", "aid": "2"}, {"ts": 1396314507.853, "type": "clicks", "aid": "2"}, {"ts": 1396314599.204, "type": "clicks", "aid": "2"}]}
+{"session": "10", "events": [{"ts": 1396314066.597, "type": "clicks", "aid": "3"}, {"ts": 1396314082.885, "type": "clicks", "aid": "3"}, {"ts": 1396314179.271, "type": "clicks", "aid": "3"}]}
+{"session": "100", "events": [{"ts": 1396315341.544, "type": "clicks", "aid": "4"}, {"ts": 1396315343.869, "type": "clicks", "aid": "4"}]}
+{"session": "1000", "events": [{"ts": 1396321206.746, "type": "clicks", "aid": "5"}, {"ts": 1396321242.609, "type": "clicks", "aid": "5"}, {"ts": 1396321247.929, "type": "clicks", "aid": "5"}]}

@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==1.13.1"
+pytorch-lightning = "*"
+tensorboardx = "*"
+onnx = "*"
+pandas = "*"
+kaggle = "*"
+gdown = "*"
+mlflow = "*"
+
+[dev-packages]
+pytest = "*"
+ipykernel = "*"
+autopep8 = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.10"
