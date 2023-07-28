@@ -7,7 +7,7 @@
 [![Conference](https://img.shields.io/badge/Conference-RecSys%202023-4b44ce?style=for-the-badge)](https://recsys.acm.org/recsys23/)
 [![OTTO jobs](https://img.shields.io/badge/otto-jobs-F00020?style=for-the-badge&logo=otto)](https://www.otto.de/jobs/technology/ueberblick/)
 
-**TRON is a scalable session-based Transformer Recommender using Optimized Negative-sampling. This repository contains the [PyTorch Lightning](https://github.com/Lightning-AI/lightning) implementation for our upcoming paper: _Scaling Session-Based Transformer Recommendations using Optimized Negative Sampling and Loss Functions\*_, authored by [Timo Wilm](https://www.linkedin.com/in/timo-wilm/), [Philipp Normann](https://www.linkedin.com/in/pnormann), [Sophie Baumeister](https://www.linkedin.com/in/sophie-baumeister/), and [Paul-Vincent Kobow](https://www.linkedin.com/in/paul-vincent-kobow/).**
+**TRON is a scalable session-based Transformer Recommender using Optimized Negative-sampling. This repository contains the official [PyTorch Lightning](https://github.com/Lightning-AI/lightning) implementation for our paper: [_Scaling Session-Based Transformer Recommendations using Optimized Negative Sampling and Loss Functions_](https://arxiv.org/abs/2307.14906), authored by [Timo Wilm](https://www.linkedin.com/in/timo-wilm/), [Philipp Normann](https://www.linkedin.com/in/pnormann), [Sophie Baumeister](https://www.linkedin.com/in/sophie-baumeister/), and [Paul-Vincent Kobow](https://www.linkedin.com/in/paul-vincent-kobow/).**
 
 <img src=".readme/header.png" width="100%">
 
@@ -181,6 +181,3 @@ For any queries or questions, please reach out to us via our LinkedIn profiles:
 For specific issues related to the codebase or for feature requests, please create a new issue on our [GitHub page](https://github.com/otto-de/TRON/issues).
 
 If this project aids your research or you find it interesting, we would appreciate it if you could star ⭐ the repository. Thanks for your support!
-
-
-\* To be published in the proceedings of the 17th ACM Conference on Recommender Systems (RecSys 2023).
