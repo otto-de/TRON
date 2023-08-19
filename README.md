@@ -131,7 +131,6 @@ Here's an explanation of each parameter in the config file:
     "topk_sampling": true,
     "topk_sampling_k": 100,
     "loss": "ssm",
-    "bpr_penalty": 1.0,
     "max_epochs": 10,
     "batch_size": 128,
     "max_session_length": 50,

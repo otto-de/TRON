@@ -73,7 +73,7 @@ def train_gru(config, data_dir, train_stats, test_stats, num_items):
                     topk_sampling_k=config.get("topk_sampling_k", 1000),
                     num_layers=config["num_layers"],
                     loss=config["loss"],
-                    bpr_penalty=config["bpr_penalty"],
+                    bpr_penalty=config.get("bpr_penalty", None),
                     optimizer=config["optimizer"],
                     output_bias=config["output_bias"],
                     share_embeddings=config["share_embeddings"],
