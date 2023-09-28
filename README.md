@@ -166,7 +166,8 @@ If TRON aids your research, please consider citing our work:
   title={Scaling Session-Based Transformer Recommendations using Optimized Negative Sampling and Loss Functions},
   author={Wilm, Timo and Normann, Philipp and Baumeister, Sophie and Kobow, Paul-Vincent},
   booktitle={Proceedings of the 17th ACM Conference on Recommender Systems},
-  pages={To be updated},
+  doi = {10.1145/3604915.3610236},
+  pages={1023--1026},
   year={2023}
 }
 ```
