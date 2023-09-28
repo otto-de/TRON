@@ -15,7 +15,7 @@
 
 ## 🎯 Abstract
 
-This work introduces **TRON**, a scalable session-based **T**ransformer **R**ecommender using **O**ptimized **N**egative-sampling. Motivated by the scalability and performance limitations of prevailing models such as SASRec and GRU4Rec+, TRON integrates top-k negative sampling and listwise loss functions to enhance its recommendation accuracy. Evaluations on relevant large-scale e-commerce datasets show that TRON improves upon the recommendation quality of current methods while maintaining training speeds similar to SASRec. A live A/B test yielded an 18.14% increase in click-through rate over SASRec, highlighting the potential of TRON in practical settings. For further research, we provide access to our [source code](https://github.com/otto-de/TRON) and an [anonymized dataset](https://github.com/otto-de/recsys-dataset).
+This work introduces **TRON**, a scalable session-based **T**ransformer **R**ecommender using **O**ptimized **N**egative-sampling. Motivated by the scalability and performance limitations of prevailing models such as SASRec and GRU4Rec+, TRON integrates top-k negative sampling and listwise loss functions to enhance its recommendation accuracy. Evaluations on relevant large-scale e-commerce datasets show that TRON improves upon the recommendation quality of current methods while maintaining training speeds similar to SASRec. A live A/B test yielded an **18.14%** increase in click-through rate over SASRec, highlighting the potential of TRON in practical settings. For further research, we provide access to our [source code](https://github.com/otto-de/TRON) and an [anonymized dataset](https://github.com/otto-de/recsys-dataset).
 
 <table style="width:100%">
   <tr style="vertical-align:top">
@@ -28,6 +28,12 @@ This work introduces **TRON**, a scalable session-based **T**ransformer **R**eco
     <td>Online results of our A/B test relative to the SASRec baseline. The error bars indicate the 95% confidence interval.</td>
   </tr>
 </table>
+
+## 🌟 RecSys 2023 Research Showcase
+
+Below is our poster presented at the [17th ACM Conference on Recommender Systems](https://recsys.acm.org/recsys23/) (RecSys 2023), which provides a comprehensive overview of the key concepts, methodologies, and results of our TRON research.
+
+<a href=".readme/poster.pdf"><img src=".readme/poster.svg" width="100%"></a>
 
 ## 🚀 Quick Start
 
