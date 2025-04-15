@@ -6,7 +6,7 @@ DATASET=$1
 function prepare_yoochoose {
     echo "Downloading yoochoose"
     wget -nc https://s3-eu-west-1.amazonaws.com/yc-rdata/yoochoose-data.7z -P datasets/yoochoose/
-    7zz x -aos datasets/yoochoose/yoochoose-data.7z -odatasets/yoochoose/
+    7z x -aos datasets/yoochoose/yoochoose-data.7z -odatasets/yoochoose/
     
     echo "Preprocessing yoochoose"
     pipenv run python -m src.preprocessing --dataset yoochoose
