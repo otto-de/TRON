@@ -193,7 +193,7 @@ class TopKModel(pl.LightningModule):
         Path(out_dir).mkdir(parents=True, exist_ok=True)
         self.to_onnx(f"{out_dir}/sasrec.onnx",
                      export_params=True,
-                     opset_version=13,
+                     opset_version=14,
                      verbose=verbose,
                      do_constant_folding=False,
                      input_names=["item_indices", "k"],

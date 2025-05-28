@@ -71,7 +71,7 @@ sudo apt-get install 7zip gzip unzip
 6. Run the main script with a configuration file:
 
 ```bash
-pipenv run python -m src --config-filename tron/yoochoose.json
+pipenv run python -m src --config-filename tron/yoochoose
 ```
 
 ## 🗂️ Repository Structure

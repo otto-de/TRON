@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "==1.13.1"
+torch = "*"
 pytorch-lightning = "*"
 tensorboardx = "*"
 onnx = "*"
@@ -12,6 +12,7 @@ pandas = "*"
 kaggle = "*"
 gdown = "*"
 mlflow = "*"
+numpy = "==2.0"
 
 [dev-packages]
 pytest = "*"
